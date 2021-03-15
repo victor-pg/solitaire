@@ -140,37 +140,6 @@
         android:visibility="visible">
 
         <LinearLayout
-            android:id="@+id/mainButtonScores"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="?attr/selectableItemBackground"
-            android:onClick="menuClick"
-            android:orientation="vertical"
-            android:paddingLeft="2dp"
-            android:paddingTop="5dp"
-            android:paddingRight="2dp"
-            android:paddingBottom="5dp">
-
-            <ImageView
-                android:id="@+id/button_scores"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/title_activity_statistics"
-                app:srcCompat="@drawable/icon_star" />
-
-            <de.tobiasbielefeld.solitaire.classes.AutoResizingTextView
-                style="@android:style/TextAppearance.Small"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
-                android:layout_marginRight="2dp"
-                android:gravity="center"
-                android:maxLines="1"
-                android:text="@string/title_activity_statistics" />
-        </LinearLayout>
-
-        <LinearLayout
             android:id="@+id/mainButtonHint"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -262,37 +231,6 @@
                 android:gravity="center"
                 android:maxLines="1"
                 android:text="@string/menu_undo" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/mainButtonSettings"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="?attr/selectableItemBackground"
-            android:onClick="menuClick"
-            android:orientation="vertical"
-            android:paddingLeft="2dp"
-            android:paddingTop="5dp"
-            android:paddingRight="2dp"
-            android:paddingBottom="5dp">
-
-            <ImageView
-                android:id="@+id/button_settings"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/menu_settings"
-                app:srcCompat="@drawable/icon_settings_black" />
-
-            <de.tobiasbielefeld.solitaire.classes.AutoResizingTextView
-                style="@android:style/TextAppearance.Small"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
-                android:layout_marginRight="2dp"
-                android:gravity="center"
-                android:maxLines="1"
-                android:text="@string/menu_settings" />
         </LinearLayout>
 
     </LinearLayout>
