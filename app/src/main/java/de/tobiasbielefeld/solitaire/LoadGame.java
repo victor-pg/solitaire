@@ -72,48 +72,50 @@ public class LoadGame {
         sharedPrefName = allGameInformation.get(index).getSharedPrefName();
         gameName = allGameInformation.get(index).getName(activity.getResources());
 
-        switch (index) {
-            default:
-                Log.e("LoadGame.loadClass()", "Your games seems not to be added here?");//fallthrough
-            case 0:
-                return new AcesUp();
-            case 1:
-                return new Calculation();
-            case 2:
-                return new Canfield();
-            case 3:
-                return new FortyEight();
-            case 4:
-                return new Freecell();
-            case 5:
-                return new Golf();
-            case 6:
-                return new GrandfathersClock();
-            case 7:
-                return new Gypsy();
-            case 8:
-                return new Klondike();
-            case 9:
-                return new Maze();
-            case 10:
-                return new Mod3();
-            case 11:
-                return new NapoleonsTomb();
-            case 12:
-                return new Pyramid();
-            case 13:
-                return new SimpleSimon();
-            case 14:
-                return new Spider();
-            case 15:
-                return new Spiderette();
-            case 16:
-                return new TriPeaks();
-            case 17:
-                return new Vegas();
-            case 18:
-                return new Yukon();
-        }
+        return new Klondike();
+
+//        switch (index) {
+//            default:
+//                Log.e("LoadGame.loadClass()", "Your games seems not to be added here?");//fallthrough
+//            case 0:
+//                return new AcesUp();
+//            case 1:
+//                return new Calculation();
+//            case 2:
+//                return new Canfield();
+//            case 3:
+//                return new FortyEight();
+//            case 4:
+//                return new Freecell();
+//            case 5:
+//                return new Golf();
+//            case 6:
+//                return new GrandfathersClock();
+//            case 7:
+//                return new Gypsy();
+//            case 8:
+//                return new Klondike();
+//            case 9:
+//                return new Maze();
+//            case 10:
+//                return new Mod3();
+//            case 11:
+//                return new NapoleonsTomb();
+//            case 12:
+//                return new Pyramid();
+//            case 13:
+//                return new SimpleSimon();
+//            case 14:
+//                return new Spider();
+//            case 15:
+//                return new Spiderette();
+//            case 16:
+//                return new TriPeaks();
+//            case 17:
+//                return new Vegas();
+//            case 18:
+//                return new Yukon();
+//        }
     }
 
     /**
@@ -133,25 +135,25 @@ public class LoadGame {
     public void loadAllGames() {
         allGameInformation.clear();
 
-        allGameInformation.add(new AllGameInformation(R.string.games_AcesUp, "AcesUp", false, 40));
-        allGameInformation.add(new AllGameInformation(R.string.games_Calculation, "Calculation", false, 30));
-        allGameInformation.add(new AllGameInformation(R.string.games_Canfield, "Canfield", false, 40));
-        allGameInformation.add(new AllGameInformation(R.string.games_FortyEight, "FortyEight", false, 50));
-        allGameInformation.add(new AllGameInformation(R.string.games_Freecell, "Freecell", false, 15));
-        allGameInformation.add(new AllGameInformation(R.string.games_Golf, "Golf", true, 40));
-        allGameInformation.add(new AllGameInformation(R.string.games_GrandfathersClock, "GrandfathersClock", true, 50));
-        allGameInformation.add(new AllGameInformation(R.string.games_Gypsy, "Gypsy", false, 80));
         allGameInformation.add(new AllGameInformation(R.string.games_Klondike, "Klondike", true, 30));
-        allGameInformation.add(new AllGameInformation(R.string.games_Maze, "Maze", false, 20));
-        allGameInformation.add(new AllGameInformation(R.string.games_mod3, "mod3", true, 70));
-        allGameInformation.add(new AllGameInformation(R.string.games_NapoleonsTomb, "NapoleonsTomb", false, 20));
-        allGameInformation.add(new AllGameInformation(R.string.games_Pyramid, "Pyramid", true, 40));
-        allGameInformation.add(new AllGameInformation(R.string.games_SimpleSimon, "SimpleSimon", false, 25));
-        allGameInformation.add(new AllGameInformation(R.string.games_Spider, "Spider", false, 50));
-        allGameInformation.add(new AllGameInformation(R.string.games_Spiderette, "Spiderette", false, 30));
-        allGameInformation.add(new AllGameInformation(R.string.games_TriPeaks, "TriPeaks", true, 40));
-        allGameInformation.add(new AllGameInformation(R.string.games_Vegas, "Vegas", false, 30));
-        allGameInformation.add(new AllGameInformation(R.string.games_Yukon, "Yukon", true, 80));
+//        allGameInformation.add(new AllGameInformation(R.string.games_Calculation, "Calculation", false, 30));
+//        allGameInformation.add(new AllGameInformation(R.string.games_Canfield, "Canfield", false, 40));
+//        allGameInformation.add(new AllGameInformation(R.string.games_FortyEight, "FortyEight", false, 50));
+//        allGameInformation.add(new AllGameInformation(R.string.games_Freecell, "Freecell", false, 15));
+//        allGameInformation.add(new AllGameInformation(R.string.games_Golf, "Golf", true, 40));
+//        allGameInformation.add(new AllGameInformation(R.string.games_GrandfathersClock, "GrandfathersClock", true, 50));
+//        allGameInformation.add(new AllGameInformation(R.string.games_Gypsy, "Gypsy", false, 80));
+//        allGameInformation.add(new AllGameInformation(R.string.games_Klondike, "Klondike", true, 30));
+//        allGameInformation.add(new AllGameInformation(R.string.games_Maze, "Maze", false, 20));
+//        allGameInformation.add(new AllGameInformation(R.string.games_mod3, "mod3", true, 70));
+//        allGameInformation.add(new AllGameInformation(R.string.games_NapoleonsTomb, "NapoleonsTomb", false, 20));
+//        allGameInformation.add(new AllGameInformation(R.string.games_Pyramid, "Pyramid", true, 40));
+//        allGameInformation.add(new AllGameInformation(R.string.games_SimpleSimon, "SimpleSimon", false, 25));
+//        allGameInformation.add(new AllGameInformation(R.string.games_Spider, "Spider", false, 50));
+//        allGameInformation.add(new AllGameInformation(R.string.games_Spiderette, "Spiderette", false, 30));
+//        allGameInformation.add(new AllGameInformation(R.string.games_TriPeaks, "TriPeaks", true, 40));
+//        allGameInformation.add(new AllGameInformation(R.string.games_Vegas, "Vegas", false, 30));
+//        allGameInformation.add(new AllGameInformation(R.string.games_Yukon, "Yukon", true, 80));
 
         GAME_COUNT = allGameInformation.size();
     }

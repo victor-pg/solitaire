@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="app_version">"Version"</string>
+<string name="app_version">"Versiune"</string>
 <string name="settings">"Settings"</string>
 <string name="game_manual">"Manual"</string>
-<string name="game_score">"Score"</string>
-<string name="game_time">"Time"</string>
-<string name="game_cancel">"Cancel"</string>
-<string name="game_confirm">"Confirm"</string>
-<string name="game_auto_complete_text">"Autocomplete"</string>
-<string name="game_press_again">"Press again to exit"</string>
-<string name="game_load_error">"Loading data failed, starting new game…"</string>
-<string name="game_close">"Close game"</string>
+<string name="game_score">"Scor"</string>
+<string name="game_time">"Timp"</string>
+<string name="game_cancel">"Renunta"</string>
+<string name="game_confirm">"Confirma"</string>
+<string name="game_auto_complete_text">"Autocompletare"</string>
+<string name="game_press_again">"Apasa inca o data pentru iesire"</string>
+<string name="game_load_error">"Eroare, incepe jocul din nou"</string>
+<string name="game_close">"Inchide jocul"</string>
 <string name="game_main_menu">"Main menu"</string>
 <string name="item_game_rules">"Game rules"</string>
 <string name="item_return_to_main_menu">"Return to main menu"</string>
@@ -54,29 +54,29 @@
 <string name="game_longest_run">"Longest sequence:"</string>
 
 <!-- dialog won -->
-<string name="dialog_win_titel">"Congratulations!"</string>
+<string name="dialog_win_titel">"Felictari!"</string>
 <string name="dialog_win_score">"Score: %1$d"</string>
 <string name="dialog_win_bonus">"Bonus: %1$d"</string>
 <string name="dialog_win_total">"Total: %1$d"</string>
 
 <!-- dialog mix cards -->
-<string name="dialog_mix_cards_title">"Mix cards"</string>
-<string name="dialog_mix_cards_text">"This will shuffle all cards, except correct sequences and cards on the foundation."</string>
-<string name="dialog_mix_cards_not_available">"There are still possible moves!"</string>
+<string name="dialog_mix_cards_title">"Amesteca carti"</string>
+<string name="dialog_mix_cards_text">"O sa amestece toate cartile"</string>
+<string name="dialog_mix_cards_not_available">"Sunt inca posibile miscari!!!"</string>
 
 <!-- dialog start new game -->
-<string name="dialog_start_new_game_title">"Start new game"</string>
-<string name="dialog_start_new_game_text">"Your current progress will be lost and a new random game will be dealt."</string>
+<string name="dialog_start_new_game_title">"Incepe din nou"</string>
+<string name="dialog_start_new_game_text">"Progresul va fi pierdut"</string>
 
 <!-- dialog redeal -->
-<string name="dialog_redeal_title">"Give cards again"</string>
-<string name="dialog_redeal_text">"Your current progress will be lost, but the cards are dealt like in the current game."</string>
+<string name="dialog_redeal_title">"Da cartile din nou"</string>
+<string name="dialog_redeal_text">"Progresul va fi pierdut"</string>
 
 <!-- If you want to help with translations, please use this site: https://poeditor.com/join/project/PYX4vcwTjA -->
 <string name="title_activity_manual">"Manual"</string>
-<string name="title_activity_settings">"Settings"</string>
-<string name="title_activity_about">"About Game"</string>
-<string name="title_activity_statistics">"Statistics"</string>
+<string name="title_activity_settings">"Setari"</string>
+<string name="title_activity_about">"Despre"</string>
+<string name="title_activity_statistics">"Statistica"</string>
 
 <!-- About activity -->
 <string name="about_tab_1">"Information"</string>

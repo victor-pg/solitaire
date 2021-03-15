@@ -84,12 +84,12 @@ public class GameSelector extends CustomAppCompatActivity
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         // Handle navigation view item clicks here.
         switch (item.getItemId()) {
-            case R.id.item_settings:
-                startActivity(new Intent(getApplicationContext(), Settings.class));
-                break;
-            case R.id.item_manual:
-                startActivity(new Intent(getApplicationContext(), Manual.class));
-                break;
+//            case R.id.item_settings:
+//                startActivity(new Intent(getApplicationContext(), Settings.class));
+//                break;
+//            case R.id.item_manual:
+//                startActivity(new Intent(getApplicationContext(), Manual.class));
+//                break;
             case R.id.item_about:
                 startActivity(new Intent(getApplicationContext(), AboutActivity.class));
                 break;

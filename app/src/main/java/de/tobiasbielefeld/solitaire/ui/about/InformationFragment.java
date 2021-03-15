@@ -48,23 +48,23 @@ public class InformationFragment extends Fragment {
         TableLayout table_further_contributors = view.findViewById(R.id.about_table_further_contributors);
         TableLayout table_translators = view.findViewById(R.id.about_table_translators);
 
-        TextView textViewBuildDate = view.findViewById(R.id.aboutTextViewBuild);       //build date
-        TextView textViewAppVersion = view.findViewById(R.id.aboutTextViewVersion);    //app version
-        TextView textViewGitHubLink = view.findViewById(R.id.aboutTextViewGitHubLink); //link for the gitHub repo
-        TextView textViewLicenseLink = view.findViewById(R.id.aboutTextViewLicenseLink);
+//        TextView textViewBuildDate = view.findViewById(R.id.aboutTextViewBuild);       //build date
+//        TextView textViewAppVersion = view.findViewById(R.id.aboutTextViewVersion);    //app version
+//        TextView textViewGitHubLink = view.findViewById(R.id.aboutTextViewGitHubLink); //link for the gitHub repo
+//        TextView textViewLicenseLink = view.findViewById(R.id.aboutTextViewLicenseLink);
 
         String buildDate = DateFormat.getDateInstance().format(BuildConfig.TIMESTAMP); //get the build date in locale time format
 
         //update the textViews
-        textViewAppVersion.setText(stringFormat(BuildConfig.VERSION_NAME));
-        textViewBuildDate.setText(stringFormat(buildDate));
+//        textViewAppVersion.setText(stringFormat(BuildConfig.VERSION_NAME));
+//        textViewBuildDate.setText(stringFormat(buildDate));
 
         //enable the hyperlink clicks
-        TextView[] textViews = new TextView[]{textViewGitHubLink, textViewLicenseLink};
+//        TextView[] textViews = new TextView[]{textViewGitHubLink, textViewLicenseLink};
 
-        for (TextView textView : textViews) {
-            textView.setMovementMethod(LinkMovementMethod.getInstance());
-        }
+//        for (TextView textView : textViews) {
+//            textView.setMovementMethod(LinkMovementMethod.getInstance());
+//        }
 
         //enable hyperlinks in "Translations"
         for (int i = 0; i < table_translators.getChildCount(); i++) {
