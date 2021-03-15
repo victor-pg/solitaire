@@ -45,8 +45,8 @@ public class InformationFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_about_tab1, container, false);
 
-        TableLayout table_further_contributors = view.findViewById(R.id.about_table_further_contributors);
-        TableLayout table_translators = view.findViewById(R.id.about_table_translators);
+//        TableLayout table_further_contributors = view.findViewById(R.id.about_table_further_contributors);
+//        TableLayout table_translators = view.findViewById(R.id.about_table_translators);
 
 //        TextView textViewBuildDate = view.findViewById(R.id.aboutTextViewBuild);       //build date
 //        TextView textViewAppVersion = view.findViewById(R.id.aboutTextViewVersion);    //app version
@@ -67,25 +67,25 @@ public class InformationFragment extends Fragment {
 //        }
 
         //enable hyperlinks in "Translations"
-        for (int i = 0; i < table_translators.getChildCount(); i++) {
-            TableRow row = (TableRow) table_translators.getChildAt(i);
-
+//        for (int i = 0; i < table_translators.getChildCount(); i++) {
+//            TableRow row = (TableRow) table_translators.getChildAt(i);
+//
             //first entry is language title, no need for hyperlinking that
-            for (int j = 1; j < row.getChildCount(); j++) {
-                TextView text = (TextView) row.getChildAt(j);
-                text.setMovementMethod(LinkMovementMethod.getInstance());
-            }
-        }
+//            for (int j = 1; j < row.getChildCount(); j++) {
+//                TextView text = (TextView) row.getChildAt(j);
+//                text.setMovementMethod(LinkMovementMethod.getInstance());
+//            }
+//        }
 
         //enable hyperlinks in "Further contributors"
-        for (int i = 0; i < table_further_contributors.getChildCount(); i++) {
-            TableRow row = (TableRow) table_further_contributors.getChildAt(i);
-
-            for (int j = 0; j < row.getChildCount(); j++) {
-                TextView text = (TextView) row.getChildAt(j);
-                text.setMovementMethod(LinkMovementMethod.getInstance());
-            }
-        }
+//        for (int i = 0; i < table_further_contributors.getChildCount(); i++) {
+//            TableRow row = (TableRow) table_further_contributors.getChildAt(i);
+//
+//            for (int j = 0; j < row.getChildCount(); j++) {
+//                TextView text = (TextView) row.getChildAt(j);
+//                text.setMovementMethod(LinkMovementMethod.getInstance());
+//            }
+//        }
 
         return view;
     }
